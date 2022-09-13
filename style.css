@@ -1,0 +1,238 @@
+.header { 
+    font-size:larger;
+    font-weight: bold;
+    background-color: rgba(217, 123, 222, 0.922);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 11px;
+}
+
+.Logo {
+    padding-left: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-display: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(58, 60, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.onepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    gap: 11px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+
+.firstpara {
+    text-align: left;
+    display: block;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.sign {
+    background-color: rgba(164, 229, 190, 0.881);
+    border-width: 3px;
+    border-radius: 11px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 56px 67px 67px;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px;
+    background: rgba(101, 79, 174, 0.904);
+}
+
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+img {
+    width: auto;
+    height: 320px;
+    border-radius: 17px;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+}
+
+
+.twopage {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.secondt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 44px;
+    display: flex;
+    color: rgba(164, 229, 190, 0.881);
+    -webkit-text-stroke: 2.4px black;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 11px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    transition: transform .3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.2)
+}
+
+.darth {
+    max-width: 200px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 11px;
+
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.threepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    background-color: rgb(80, 183, 247);
+}
+
+.qoutes {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.qouter {
+    font-size: x-large;
+    margin-top: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding-right: 75px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.fourpage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 56px 67px 67px;
+    padding: 80px;
+    border-radius: 5px;
+    background: rgba(71, 174, 94, 0.929);
+}
+
+.lasttitle {
+    display: flex;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    gap: 3px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+
+.ending {
+    background-color: rgb(241, 250, 107);
+    border-radius: 11px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-left: 110px;
+}
+
+.conn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lastri {
+    display: flex;
+    align-items: center;
+}
